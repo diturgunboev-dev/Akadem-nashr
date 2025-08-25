@@ -4,84 +4,90 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Akademnashr</title>
+    <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
     <!-- Header qismi    -->
     
-    <header>
-        <div>
-            <!-- <a href="index.html">Akademnashr</a> -->
-            <a href="index.html"><img src="img/logo.svg" alt="logo" width="227" height="60"></a>
-            <nav>
-                <ul>
-                    <li><a href="">Bosh sahifa</a></li>
-                    <li><a href="">Kitoblar</a></li>
-                    <li><a href="">Aksiyalar</a></li>
-                    <li><a href="">Kontaktlar</a></li>
-                    <li><a href="">Ro'yhatdan o'tish</a></li>
-                </ul>
-            </nav>
-        </div>
+    <header class="site-header">
+        <hr class="main-line">
+        <a href="index.html">
+            <img src="img/logo.svg" alt="logo" width="227" height="60">
+        </a>
+        
+        <nav>
+            <ul>
+                <li><a class="sitenav-link" href="">Bosh sahifa</a></li>
+                <li><a class="sitenav-link" href="">Kitoblar</a></li>
+                <li><a class="sitenav-link" href="">Aksiyalar</a></li>
+                <li><a class="sitenav-link" href="">Kontaktlar</a></li>
+            </ul>
+        </nav>
+        
+        <a class="main-link" href="">Ro'yhatdan o'tish</a>
+        
     </header>
     
     <main>
         <!-- Hero -->
-        <section>
-            <div>
-                <hr>
-                <h2>Pythonda dasturlash asoslari</h2>
-                <p>Dasturlash asoslariga oid o'zbek tilidagi eng mukammal qo'llanma</p>
-                <a href="">Ro'yhatdan o'tish</a>
-                
-                
+        
+        <section class="hero">
+            
+            <div class="hero-content">
+                <hr class="orange-line">
+                <br><h2 class="hero-heading">Pythonda dasturlash asoslari</h2>
+                <br>
+                <p class="hero-text">Dasturlash asoslariga oid o'zbek tilidagi eng mukammal qo'llanma Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatibus voluptatem placeat, quisquam dolores ipsum laboriosam!</p>
+                <a class="main-link" href="#">Ro'yhatdan o'tish</a>
             </div>
             
-            <img src="img/python-book.jpg" alt="Pyhton book" width="510" height="510" srcset="img/python-book.jpg 1x, img/python-book@2x.jpg 2x">
-            
+            <img class="hero-img" src="img/python-book.jpg" alt="Pyhton book" width="510" height="510" srcset="img/python-book.jpg 1x, img/python-book@2x.jpg 2x">  
             
         </section>
+        
         <!-- Features -->
         
-        <section>
-            <h2>Nega ynan Akademnashr ?</h2>
-
+        <section class="Features">
+            <hr class="orange-line">
+            <h2 class="features-heading">Nega ynan Akademnashr?</h2>
+            
             <ul>
-                <li>
-                    <img src="img/icon-cursor-click.svg" alt="" width="56" height="56">
-                    <h3>Oson buyurtma berish</h3>
-                    <p>Akademnashr.uz saytidan o'zingizga yoqqan kitoblarni oson usulda buyurtma qila olasiz</p>
-
+                <li class="feature">
+                    <div class="feature-icon-wrapper"><img src="img/icon-cursor-click.svg" alt="" width="56" height="56"></div>
+                    <h3 class="features-h3">Oson buyurtma berish</h3>
+                    <p class="features-text">Akademnashr.uz saytidan o'zingizga yoqqan kitoblarni oson usulda buyurtma qila olasiz</p>
+                    
                 </li>
                 
-                <li>
-                    <img src="img/icon-lightning-bolt.svg" alt="" width="56" height="56">
-                    <h3>Eng sara kitoblar</h3>
-                    <p>Trendagi eng oppabop,har xil auditoriyaga mo'ljallangan har xil janrdagi kitoblarni topa olasiz</p>
-
+                <li class="feature">
+                    <div class="feature-icon-wrapper"><img src="img/icon-lightning-bolt.svg" alt="" width="56" height="56"></div>
+                    <h3 class="features-h3">Eng sara kitoblar</h3>
+                    <p class="features-text">Trendagi eng oppabop,har xil auditoriyaga mo'ljallangan har xil janrdagi kitoblarni topa olasiz</p>
+                    
                 </li>
-
-                <li>
-                    <img src="img/icon-sparkles.svg" alt="" width="56" height="56">
-                    <h3>Tez yetkazib berish</h3>
-                    <p>O'zbekistonning istalgan hududiga 3 ish kunida,xalqaro buyurtmalarni 10 ish kunida yetkazib beriladi</p>
-
+                
+                <li class="feature">
+                    <div class="feature-icon-wrapper"><img src="img/icon-sparkles.svg" alt="" width="56" height="56"></div>
+                    <h3 class="features-h3">Tez yetkazib berish</h3>
+                    <p class="features-text">O'zbekistonning istalgan hududiga 3 ish kunida,xalqaro buyurtmalarni 10 ish kunida yetkazib beriladi</p>
+                    
                 </li>
-
-                 
+                
+                
             </ul>
         </section>
         
         <!-- Aksiya  -->
         
-        <section>
-            <div>
-                <h2>Bolalar kitoblari uchun ajoyib aksiya !</h2>
-                <p>Ertaklar,she'rlar,sarguzasht asarlar,fikrlashni o'stirish uchun turli mash qo'llanmalari va komikslar.</p>
-                <p>Aksiyadagi eng katta to'plamda <strong>50 ta kitob</strong>ni <strong>350 ming</strong>so'mga sotib olishingiz mumkin.</p>
-                <a href="">Buyurtma berish</a>
+        <section class="promo">
+            <div class="promo-content">
+                <h2 class="promo-heading">Bolalar kitoblari uchun ajoyib aksiya !</h2>
+                <p class="promo-text">Ertaklar,she'rlar,sarguzasht asarlar,fikrlashni o'stirish uchun turli mash qo'llanmalari va komikslar.</p>
+                <p class="promo-text">Aksiyadagi eng katta to'plamda <strong class="promo-h">50 ta kitob</strong>ni <strong class="promo-h">350 ming</strong>so'mga sotib olishingiz mumkin.</p>
+                <a class="main-link" href="#">Buyurtma berish</a>
             </div>
             
-            <img src="img/sale-img.jpg" alt="Aksiyadagi kitoblar" width="440" height="440" srcset="img/sale-img.jpg 1x, img/sale-img@2x.jpg" 2x>
+            <img class="promo-img" src="img/sale-img.jpg" alt="Aksiyadagi kitoblar" width="440" height="440" srcset="img/sale-img.jpg 1x, img/sale-img@2x.jpg" 2x>
         </section>
         <br><br>
         
@@ -89,7 +95,7 @@
     <footer>
         <!-- Footer qismi  -->
         
-        <div>
+        <div class="site-footer">
             
             <a href="index.html"><img src="img/logo.svg" alt="Logo"></a>
             
@@ -99,9 +105,9 @@
                 <li><a href="https://instagram.com" target="_blank"><img src="img/icon-instagram.svg" alt="instagram logo"></a></li>
                 
             </ul>
-            <hr>
-            
-            
+
+            <hr class="footer-divider">
+                        
             <div>
                 <ul>
                     <li><a href="">Bosh sahifa</a></li>
