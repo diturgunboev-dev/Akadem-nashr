@@ -1,3 +1,5 @@
+
+/* SITE HEADER */
 .site-header{
     background-color: #fff;
 }
@@ -14,7 +16,12 @@
     height: 3px;
     background-color: #FF7500;
 }
+ul {
+    list-style-type: none;
+}
 
+
+/* SITE-NAV */
 .sitenav-link{
     font-size: 13px;
     line-height: 15px;
@@ -35,6 +42,8 @@
 
 }
 
+
+/* SITE-HERO */
 .hero{
     background-color: #252420;
     color: #fff;
@@ -62,6 +71,8 @@
     height: 510px;
 }
 
+
+/* SITE FEATURE */
 .feature{
     width: 340px;
 }
@@ -93,6 +104,8 @@
     letter-spacing: 0.5px;
 }
 
+
+/* SITE-PROMO */
 .promo{
     background-color: #252420;
     color: #fff;
@@ -122,6 +135,8 @@
     height: 440px;
 }
 
+
+/* SITE-FOOTER */
 .site-footer{
     background-color: #F8F8F8;
 }
